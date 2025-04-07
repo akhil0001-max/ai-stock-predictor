@@ -10,7 +10,8 @@ from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import LSTM, Dense, Dropout  
 import datetime
 
-st.set_page_config(page_title="AI Stock Predictor", layout="centered") st.title("AI-based Stock Predictor (Deep Learning)")
+st.set_page_config(page_title="AI Stock Predictor", layout="centered") 
+st.title("AI-based Stock Predictor (Deep Learning)")
 
 Step 1: User Input
 

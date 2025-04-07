@@ -1,4 +1,4 @@
-ai_stock_predictor.py
+#ai_stock_predictor.py
 
 import yfinance as yf 
 import pandas as pd 
@@ -7,8 +7,8 @@ import matplotlib.pyplot as plt
 import streamlit as st 
 from sklearn.preprocessing import MinMaxScaler 
 from tensorflow.keras.models import Sequential 
-from tensorflow.keras.layers import LSTM 
-Dense, Dropout import datetime
+from tensorflow.keras.layers import LSTM, Dense, Dropout  
+import datetime
 
 st.set_page_config(page_title="AI Stock Predictor", layout="centered") st.title("AI-based Stock Predictor (Deep Learning)")
 
